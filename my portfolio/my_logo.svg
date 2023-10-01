@@ -1,0 +1,7 @@
+<svg height="30" width="49">
+                        <rect x="1" y="3 " rx="6" ry="6" width="47" height="25"
+                            style="fill:none;stroke:#fff;stroke-width:2;opacity:0.5" />
+                        <!-- <ellipse cx="200" cy="70" rx="65" ry="35" fill="url(#grad1)" /> -->
+                        <text fill="#ffffff" font-size="25" font-family="Monserrate" x="3" y="24">A.S.</text>
+
+                    </svg>
