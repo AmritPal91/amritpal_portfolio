@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
     <link href="./assets copy/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <style>
         .bd-placeholder-img {
@@ -239,8 +241,8 @@
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">I'm Amritpal Singh</h1>
-                    <p class="lead text-body-secondary">Based in India, I'm a front-end developer passionate about
+                    <h1 class="fw-light" id="myName">I'm Amritpal Singh</h1>
+                    <p class="lead text-body-secondary" id="myInfo">Based in India, I'm a front-end developer passionate about
                         building
                         accessible web apps that users love.
                     </p>
@@ -445,7 +447,14 @@
         </div>
     </footer>
     <script src="./assets copy/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>let typed = new Typed('#myName','#myInfo' {
+    strings: ['I am Amritpal Singh'],['Based in India, I'm a front-end developer passionate about building accessible web apps that users love.']
+    typeSpeed: 100
+})
+AOS.init({
+    duration: 2000
+});</script>
 </body>
 
 </html>
